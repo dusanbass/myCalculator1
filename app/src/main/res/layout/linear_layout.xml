@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16sp"
+    tools:context=".MainActivity">
+
+        <TextView
+        android:id="@+id/textCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/textAreaTint"
+        android:gravity="bottom|right"
+        android:paddingRight="6sp"
+        android:text="0"
+        android:textColor="@color/textDigitColor"
+        android:textSize="@dimen/textDigitSize"
+        android:maxLines="1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/digit_layout_marginBottom"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDigit7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:minHeight="100dp"
+            android:text="7"
+            android:textColor="@color/textDigitColor"
+            android:textSize="@dimen/buttonTextSize" />
+
+        <Button
+            android:id="@+id/buttonDigit8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:minHeight="100dp"
+            android:text="8"
+            android:textColor="@color/textDigitColor"
+            android:textSize="@dimen/buttonTextSize" />
+
+        <Button
+            android:id="@+id/buttonDigit9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:minHeight="100dp"
+            android:text="9"
+            android:textColor="@color/textDigitColor"
+            android:textSize="@dimen/buttonTextSize" />
+
+        <Button
+            android:id="@+id/buttonOperationDiv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:minHeight="100dp"
+            android:text="/"
+            android:textColor="@color/textDigitColor"
+            android:textSize="@dimen/buttonTextSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/digit_layout_marginBottom"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDigit4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:minHeight="100dp"
+            android:text="4"
+            android:textColor="@color/textDigitColor"
+            android:textSize="@dimen/buttonTextSize" />
+
+        <Button
+            android:id="@+id/buttonDigit5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:minHeight="100dp"
+            android:text="5"
+            android:textColor="@color/textDigitColor"
+            android:textSize="@dimen/buttonTextSize" />
+
+        <Button
+            android:id="@+id/buttonDigit6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:minHeight="100dp"
+            android:text="6"
+            android:textColor="@color/textDigitColor"
+            android:textSize="@dimen/buttonTextSize" />
+
+        <Button
+            android:id="@+id/buttonOperationMul"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:minHeight="100dp"
+            android:text="*"
+            android:textColor="@color/textDigitColor"
+            android:textSize="@dimen/buttonTextSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/digit_layout_marginBottom"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/buttonDigit1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:minHeight="100dp"
+            android:text="1"
+            android:textColor="@color/textDigitColor"
+            android:textSize="@dimen/buttonTextSize" />
+
+        <Button
+            android:id="@+id/buttonDigit2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:minHeight="100dp"
+            android:text="2"
+            android:textColor="@color/textDigitColor"
+            android:textSize="@dimen/buttonTextSize" />
+
+        <Button
+            android:id="@+id/buttonDigit3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:minHeight="100dp"
+            android:text="3"
+            android:textColor="@color/textDigitColor"
+            android:textSize="@dimen/buttonTextSize" />
+
+        <Button
+            android:id="@+id/buttonOperationSub"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:minHeight="100dp"
+            android:text="-"
+            android:textColor="@color/textDigitColor"
+            android:textSize="@dimen/buttonTextSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/digit_layout_marginBottom"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDigit0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:height="100dp"
+            android:text="0"
+            android:textColor="@color/textDigitColor"
+            android:textSize="@dimen/buttonTextSize" />
+
+        <Button
+            android:id="@+id/buttonOperationClr"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:height="100dp"
+            android:text="CLR"
+            android:textColor="@color/textDigitColor"
+            android:textSize="@dimen/buttonTextSize" />
+
+        <Button
+            android:id="@+id/buttonOperationAdd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:height="100dp"
+            android:text="+"
+            android:textColor="@color/textDigitColor"
+            android:textSize="@dimen/buttonTextSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/digit_layout_marginBottom"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/buttonOperationEql"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="="
+            android:textColor="@color/textDigitColor"
+            android:textSize="@dimen/buttonTextSize" />
+
+    </LinearLayout>
+
+</LinearLayout>

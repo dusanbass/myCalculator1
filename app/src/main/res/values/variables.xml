@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonTextSize" type="dimen">30sp</item>
+    <item name="textDigitSize" type="dimen">45sp</item>
+    <item name="digit_layout_marginBottom" type="dimen">-3sp</item>
+</resources>
