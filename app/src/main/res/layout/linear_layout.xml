@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:background="@color/textAreaTint"
-        android:gravity="bottom|right"
+        android:gravity="bottom|end"
         android:paddingRight="6sp"
         android:text="0"
         android:textColor="@color/textDigitColor"
@@ -33,11 +33,13 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:minHeight="100dp"
+            android:onClick="digitClick"
             android:text="7"
             android:textColor="@color/textDigitColor"
             android:textSize="@dimen/buttonTextSize" />
 
         <Button
+            android:onClick="digitClick"
             android:id="@+id/buttonDigit8"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -48,6 +50,7 @@
             android:textSize="@dimen/buttonTextSize" />
 
         <Button
+            android:onClick="digitClick"
             android:id="@+id/buttonDigit9"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -58,6 +61,7 @@
             android:textSize="@dimen/buttonTextSize" />
 
         <Button
+            android:onClick="operationClick"
             android:id="@+id/buttonOperationDiv"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -76,6 +80,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:onClick="digitClick"
             android:id="@+id/buttonDigit4"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -86,6 +91,7 @@
             android:textSize="@dimen/buttonTextSize" />
 
         <Button
+            android:onClick="digitClick"
             android:id="@+id/buttonDigit5"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -96,6 +102,7 @@
             android:textSize="@dimen/buttonTextSize" />
 
         <Button
+            android:onClick="digitClick"
             android:id="@+id/buttonDigit6"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -106,6 +113,7 @@
             android:textSize="@dimen/buttonTextSize" />
 
         <Button
+            android:onClick="operationClick"
             android:id="@+id/buttonOperationMul"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -125,6 +133,7 @@
         android:weightSum="4">
 
         <Button
+            android:onClick="digitClick"
             android:id="@+id/buttonDigit1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -135,6 +144,7 @@
             android:textSize="@dimen/buttonTextSize" />
 
         <Button
+            android:onClick="digitClick"
             android:id="@+id/buttonDigit2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -145,6 +155,7 @@
             android:textSize="@dimen/buttonTextSize" />
 
         <Button
+            android:onClick="digitClick"
             android:id="@+id/buttonDigit3"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -155,6 +166,7 @@
             android:textSize="@dimen/buttonTextSize" />
 
         <Button
+            android:onClick="operationClick"
             android:id="@+id/buttonOperationSub"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -173,6 +185,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:onClick="digitClick"
             android:id="@+id/buttonDigit0"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -183,6 +196,7 @@
             android:textSize="@dimen/buttonTextSize" />
 
         <Button
+            android:onClick="operationClick"
             android:id="@+id/buttonOperationClr"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -193,6 +207,7 @@
             android:textSize="@dimen/buttonTextSize" />
 
         <Button
+            android:onClick="operationClick"
             android:id="@+id/buttonOperationAdd"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -214,6 +229,7 @@
         android:weightSum="1">
 
         <Button
+            android:onClick="operationClick"
             android:id="@+id/buttonOperationEql"
             android:layout_width="0dp"
             android:layout_height="match_parent"
